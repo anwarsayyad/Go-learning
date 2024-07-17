@@ -14,6 +14,7 @@ type person struct {
 }
 
 
+
 func main() {
 	alex := person{
 		firstName: "Anwar",
@@ -42,4 +43,4 @@ func (p person) print() {
 
 func (p person) update_firstname(newFirstName string) {
 	p.firstName = newFirstName
-} 
+}
